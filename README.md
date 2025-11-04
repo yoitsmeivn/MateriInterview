@@ -30,6 +30,10 @@ To start both the frontend and backend servers, use:
     npm run dev-all
 Front end runs on: http://localhost:5173
 
+## How to use
+
+When you open Materi, you’ll start on the Home page, where all your created files are listed. From here, you can create a new document or open an existing one. Once you open or create a document, you’ll enter the editor, where you can enter text freely, update the dynamic title, and save your work. You can also exit back to the Home page or delete the current document. If your .env file contains a valid OPENAI_API_KEY, you can access the built in AI chatbot, which can help you to write or autofill content directly within the editor.
+
 ## API Endpoints
 
 ### Post(Create / Save Documents)
