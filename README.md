@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Materi — Founding Engineer Case Study
 
 Materi is a modern, full-stack document editor that provides a Google Docs–style writing experience with AI powered assistance.  
@@ -56,3 +57,7 @@ Needs OPEN AI Key and key is not exposed in the repo.
 
 
 # Materi — 2025
+=======
+# MateriInterview
+Materi Interview Repo. | Ivan Severinov
+>>>>>>> a4cd6201a6d09bcf2b8ea9d54f13d107adc51a83
