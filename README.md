@@ -3,6 +3,16 @@
 Materi is a modern, full-stack document editor that provides a Google Docs–style writing experience with AI powered assistance.  
 It includes visible pagination (A4 layout) and an integrated chat assistant powered by OpenAI.
 
+To complete this task, I created a dashboard page called “Home” that serves as the dashboard for managing all documents or 'workspaces'. 
+From here, users can:
+* Create new documents using the “New Document” button, which generates a new file entry in the system.
+* View all saved documents.
+* Edit existing documents by selecting them.
+
+Each document is saved locally in the backend as a JSON file, making it easy to manage through the dashboard.
+
+When a user selects a document, it opens inside the Materi Editor.
+
 ---
 
 ## Prerequisites & Setup
