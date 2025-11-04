@@ -18,7 +18,7 @@ When a user selects a document, it opens inside the Materi Editor.
 ## Prerequisites & Setup
 
 ### Install dependencies
-Run these commands at the root of your project:
+Run these commands at the root of your project. Please run this both the frontend and backend directories:
     npm install
 
 ### Environment variables
