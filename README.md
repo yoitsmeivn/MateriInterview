@@ -59,11 +59,26 @@ Example:
 ### Delete(Delete Documents)
 DELETE /documents/:id
 Deletes a specific document by its ID.
+Example:
+DELETE /documents/100101
+
+Response: "success": true
 
 ### Post-AI(AI Chat Bot)
 POST /api/ai
 Sends a chat message to the AI assistant.(Prompting)
 The AI reads the message and returns a generated reply and can autofill content in the editor.
+Example:
+{
+  "messages": [
+    { "role": "user", "content": "Write a paragraph balancing love and success." }
+  ]
+}
+
+Response:
+{
+  "reply": "Balancing love and success is ... " // AI GENERATION
+}
 
 ## Document Storage
 
