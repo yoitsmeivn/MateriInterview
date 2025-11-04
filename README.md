@@ -23,12 +23,33 @@ Front end runs on: http://localhost:5173
 ## API Endpoints
 
 ### Post(Create / Save Documents)
+Creates or saves a new document.
+The server generates an id automatically, unique to the document.
 
 ### Get(Get Documents)
+GET /documents
+Fetches a list of all saved documents (returns only basic info like ID and title). Used in Home.jsx
+Example:
+    {
+    "id": "101010",
+    "title": "Draft"
+  }
+
+GET /documents/:id
+Fetches a specific document by its ID.
+Example:
+    {
+  "id": "10101011",
+  "title": "Draft",
+  "content": "Hello World."
+}
 
 ### Delete(Delete Documents)
+Deletes a specific document by its ID.
 
 ### Post-AI(AI Chat Bot)
+Sends a chat message to the AI assistant.(Prompting)
+The AI reads the message and returns a generated reply and can autofill content in the editor.
 
 ## Document Storage
 
